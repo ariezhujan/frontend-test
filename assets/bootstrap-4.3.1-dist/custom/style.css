@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Montserrat", Montserrat-bold, sans-serif; }
+
+section {
+  margin-bottom: 50px; }
+  section .clearfix::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  section p {
+    margin-top: 9px !important;
+    margin-bottom: 9px !important; }
+  section ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px !important; }
+  section li {
+    list-style: none; }
+  section h2 {
+    font-weight: 1000; }
+  section h3 {
+    font-weight: 500; }
+  section .powerfull h3 {
+    margin: 30px; }
+  section .navbar-right-sec1 {
+    display: -ms-flexbox;
+    display: flex;
+    text-align: -webkit-auto;
+    font-size: 12px;
+    float: left;
+    margin-top: 5px; }
+  section .navbar-left-sec1 {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-auto;
+    float: right;
+    font-size: 14px;
+    margin-top: 5px; }
+    section .navbar-left-sec1 li {
+      padding-left: 10px; }
+  section .tentangphphosting {
+    font-size: 16px;
+    line-height: 2.2;
+    font-weight: 500; }
+    section .tentangphphosting i {
+      padding: 10px; }
+  section .font1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px; }
+  section .fitur-enskripsi {
+    margin-top: 50px;
+    margin-left: 230px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: center;
+    position: static;
+    text-align: -webkit-auto; }
+    section .fitur-enskripsi .col-md-4 {
+      flex: 0 0 40.333333%;
+      max-width: none; }
+  section .enskripsiimg {
+    height: 180px; }
+    section .enskripsiimg .img1 {
+      margin-top: 80px; }
+    section .enskripsiimg .img2 {
+      margin-top: 60px; }
+    section .enskripsiimg .img3 {
+      width: 20%; }
+  section .includepaketimg {
+    height: 80px;
+    text-align: center;
+    margin-top: 40px; }
+    section .includepaketimg .img1 {
+      width: 19%; }
+  section .includepakettext {
+    text-align: center;
+    margin-bottom: 40px; }
+    section .includepakettext h4 {
+      font-weight: 900;
+      font-size: 19px; }
+    section .includepakettext p {
+      font-size: 14px;
+      font-weight: 500; }
+  section .text-center .font1 {
+    margin-bottom: 70px; }
+  section .font2 {
+    font-size: 50px; }
+  section .card {
+    border: 1px solid rgba(117, 118, 120, 0.11); }
+  section .card-header {
+    border: none;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px; }
+    section .card-header h3 {
+      font-weight: 800; }
+  section .card-title {
+    border-top: 1px solid rgba(117, 118, 120, 0.11); }
+    section .card-title .text-center {
+      margin-top: 10px; }
+      section .card-title .text-center li {
+        margin-bottom: -10px; }
+        section .card-title .text-center li sup {
+          top: -22px;
+          font-size: 17px; }
+  section .card-subtitle {
+    margin-top: -0.9rem;
+    font-size: 15px;
+    font-weight: 500;
+    border-top: 1px solid rgba(117, 118, 120, 0.11); }
+  section .card-body {
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 500;
+    border-top: 1px solid rgba(117, 118, 120, 0.11); }
+  section .card-footer {
+    background-color: #fff;
+    border-top: none;
+    margin-bottom: 20px; }
+    section .card-footer .btn-outline-primary {
+      border-style: solid;
+      border-width: 0.10rem;
+      border-color: #626262 !important;
+      border-radius: 50px;
+      color: #626262;
+      font-weight: 700;
+      width: 9.5em; }
+    section .card-footer .btn-outline-primary:hover {
+      border-color: #007bff !important;
+      color: #007bff;
+      background-color: #fff; }
+    section .card-footer .btn-primary {
+      border-radius: 50px;
+      font-weight: 700;
+      width: 9.5em; }
+  section .blueborder {
+    border: 1px solid #007bff; }
+  section .personal {
+    background-color: #007bff;
+    color: #fff; }
+  section .star {
+    font-size: 12px;
+    color: #007bff; }
+  section .col-md-3 {
+    padding-right: 0px;
+    padding-left: 0px; }
+  section .col-md-6 {
+    padding-right: 0px;
+    padding-left: 0px; }
+  section table {
+    width: 100%; }
+  section .table-bordered {
+    font-size: 14px;
+    font-weight: 600; }
+    section .table-bordered td {
+      text-align: center;
+      padding: 7px; }
+      section .table-bordered td i {
+        margin-top: 5px;
+        float: left; }
+  section .list-group-item-secondary {
+    background-color: #f1f2f3a3; }
+  section .frameworklaravel {
+    padding: 0px; }
+    section .frameworklaravel p {
+      font-size: 18px;
+      line-height: 1.8; }
+    section .frameworklaravel li {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.8;
+      padding: 4px; }
+      section .frameworklaravel li i {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        margin-top: 8px;
+        float: left; }
+    section .frameworklaravel small {
+      font-size: 11px;
+      font-weight: 500; }
+    section .frameworklaravel button {
+      margin-top: 30px;
+      border-radius: 50px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      section .frameworklaravel button h4 {
+        margin-top: 6px;
+        font-size: 18px;
+        font-weight: 501; }
+  section .rameworklaravelimg img {
+    width: 100%;
+    padding: 30px; }
+  section .modulphp {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: -100px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6; }
+  section .modulphpbtn {
+    text-align: center; }
+    section .modulphpbtn .btn-outline-primary {
+      border-style: solid;
+      border-width: 0.10rem;
+      border-color: #626262 !important;
+      border-radius: 50px;
+      color: #626262;
+      font-weight: 700;
+      width: 12.5em;
+      height: 3em; }
+    section .modulphpbtn .btn-outline-primary:hover {
+      border-color: #007bff !important;
+      color: #007bff;
+      background-color: #fff; }
+  section .linuxhosting {
+    padding: 10px; }
+    section .linuxhosting p {
+      padding-top: 15px;
+      font-size: 14px;
+      line-height: 1.5; }
+    section .linuxhosting .linuxhostingbtn {
+      margin-top: 40px; }
+      section .linuxhosting .linuxhostingbtn .btn-primary {
+        border-radius: 50px;
+        font-weight: 700;
+        width: 12.5em;
+        height: 3em; }
+  section .linuxhostingimg {
+    padding: 10px;
+    margin-top: 50px; }
+
+.share {
+  margin-top: -60px;
+  background-color: #e0e0e03b;
+  padding: 0px; }
+  .share .col-md-6 {
+    padding: 0px; }
+    .share .col-md-6 p {
+      margin-top: 30px;
+      margin-left: 100px;
+      font-size: 14px;
+      font-weight: 500;
+      color: black; }
+    .share .col-md-6 ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 24px;
+      margin-bottom: -8px; }
+      .share .col-md-6 ul li {
+        list-style: none;
+        margin-left: 40px; }
+        .share .col-md-6 ul li .text-primary {
+          font-size: 35px;
+          color: #08488d !important; }
+        .share .col-md-6 ul li .text-success {
+          font-size: 35px;
+          color: #6ab8ff !important; }
+        .share .col-md-6 ul li .text-center {
+          padding-top: 2px;
+          font-size: 14px;
+          font-weight: 500;
+          color: #a0a5aafc; }
+        .share .col-md-6 ul li .text-danger {
+          font-size: 35px;
+          color: #ff3a4d !important; }
+        .share .col-md-6 ul li .speech-bubble {
+          position: relative;
+          top: -36px;
+          left: 33px;
+          border: 1px solid #6c757d;
+          border-right-color: #6c757d;
+          border-radius: .2em;
+          width: 60px;
+          height: 30px; }
+        .share .col-md-6 ul li .speech-bubble:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          width: 0;
+          height: 0;
+          border: 5px solid transparent;
+          border-right-color: #6c757d;
+          border-left: 1px;
+          margin-top: 8px;
+          margin-left: -0.3em; }
+
+footer .bantuan {
+  padding: 50px;
+  background-color: #0f87d8; }
+  footer .bantuan .batas {
+    width: 0px;
+    height: 50px;
+    border: 1px #6fabeb solid; }
+  footer .bantuan .text-center p {
+    font-size: 30px;
+    color: #fff; }
+    footer .bantuan .text-center p .fontbantuan {
+      font-weight: 700; }
+footer .bantuanbtn .btn-outline-secondary {
+  border-style: solid;
+  border-width: 0.10rem;
+  border-color: #ffffff !important;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  width: 12.5em;
+  height: 3em; }
+footer .bantuanbtn .btn-outline-secondary:hover {
+  border-color: #08488d !important;
+  color: #08488d;
+  background-color: #007bff; }
+footer .bantuanbtn i {
+  color: white;
+  font-size: 30px;
+  float: left;
+  padding-top: 2px;
+  padding-left: 8px; }
+footer .bantuanbtn p {
+  padding-top: 4px; }
+footer .kontenfooter {
+  background-color: #303030; }
+  footer .kontenfooter .subkontenfooter {
+    color: #dbd8d8;
+    margin-top: 50px; }
+    footer .kontenfooter .subkontenfooter h6 {
+      font-size: 14px;
+      font-weight: 700;
+      padding-bottom: 20px; }
+    footer .kontenfooter .subkontenfooter p {
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 1.7; }
+    footer .kontenfooter .subkontenfooter ul {
+      padding: 0px; }
+    footer .kontenfooter .subkontenfooter li {
+      list-style: none;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 1.7; }
+    footer .kontenfooter .subkontenfooter .flex {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 15px;
+      color: grey; }
+    footer .kontenfooter .subkontenfooter .newsletter .form-control {
+      border-radius: 50px; }
+    footer .kontenfooter .subkontenfooter .newsletter .newsletter__form {
+      position: relative; }
+    footer .kontenfooter .subkontenfooter .newsletter .newsletter__form input[type=email] {
+      height: 50px;
+      padding: 0 calc(var(--space-md) + 100px) 0 var(--space-md);
+      border-radius: 50em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 14px;
+      padding: 12px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
+    footer .kontenfooter .subkontenfooter .newsletter .btn {
+      padding: var(--space-xs) var(--space-sm);
+      border-radius: 50em;
+      transition: background-color .2s,color .2s,box-shadow .2s,-webkit-transform .2s;
+      transition: transform .2s,background-color .2s,color .2s,box-shadow .2s;
+      transition: transform .2s,background-color .2s,color .2s,box-shadow .2s,-webkit-transform .2s; }
+    footer .kontenfooter .subkontenfooter .newsletter .btnletter {
+      position: relative;
+      padding: 10px;
+      height: 40px;
+      width: 100px;
+      top: -45px;
+      left: 150px;
+      font-size: 12px;
+      font-weight: 500; }
+    footer .kontenfooter .subkontenfooter .newsletter .btn--subtle {
+      background-color: #1e9ff6;
+      color: var(--color-contrast-higher);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+  footer .kontenfooter .author {
+    padding-left: 100px;
+    color: #dbd8d8;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 50px; }
+
+/*# sourceMappingURL=style.css.map */
